@@ -9,19 +9,46 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kinde-oss/kinde-auth-nextjs": "^2.3.1",
+    "@prisma/client": "^5.15.1",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
+    "@react-pdf/renderer": "^3.4.4",
+    "@tailwindcss/typography": "^0.5.13",
+    "@tanstack/react-query": "^5.45.1",
+    "@trpc/client": "^11.0.0-rc.417",
+    "@trpc/next": "^11.0.0-rc.417",
+    "@trpc/react-query": "^11.0.0-rc.417",
+    "@trpc/server": "^11.0.0-rc.417",
+    "@uploadthing/react": "^6.6.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.395.0",
+    "next": "13.5.6",
+    "pdf-dist": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "react-dropzone": "^14.2.3",
+    "react-loading-skeleton": "^3.4.0",
+    "react-pdf": "^9.0.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^6.12.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "prisma": "^5.15.1",
+    "tailwindcss": "^3",
+    "typescript": "^5"
   }
 }
